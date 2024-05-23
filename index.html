@@ -49,7 +49,7 @@ h3,
 h4,
 h5,
 h6 {
- font-family:Jakarta;
+ font-family:PlusJakarta,sans-serif;
  font-weight:700;
  color:#122231
 }
@@ -1956,7 +1956,7 @@ input {
  top:405px;
  border-radius:10px;
  background:#f5f5f5;
- font-family:Jakarta;
+ font-family:PlusJakarta,sans-serif;
  font-style:normal;
  font-weight:700;
  font-size:16px;
@@ -1968,7 +1968,7 @@ input {
  font-weight:700;
  font-size:17px;
  line-height:20px;
- font-family:Jakarta;
+ font-family:PlusJakarta,sans-serif;
  width:200px;
  border-radius:50px;
  background:#153dbb!important;
@@ -11804,7 +11804,7 @@ footer .about__body {
  text-align:justify
 }
 .home-saver {
- max-width:811px;
+ max-width:700px;
  margin:0 auto;
  text-align:center;
  letter-spacing:-.03em;
@@ -11892,7 +11892,8 @@ footer .about__body {
   bottom:0!important;
   padding-right:0!important;
   width:155px
- }nav.sticky{
+ }
+ nav.sticky{
   padding: 20px 20px;
   background:white;
   color: black;
@@ -11916,7 +11917,8 @@ footer .about__body {
  }
  h1 {
   font-size:55px;
-  line-height:72px
+  line-height:72px;
+  font-family:PlusJakarta,sans-serif;
  }
  h2 {
   font-size:41px;
@@ -12362,7 +12364,7 @@ footer .about__body {
   margin-bottom:0
  }
  .home-saver {
-  padding:6rem 1rem 0
+  padding:5rem 0.5rem 0
  }
  .customers {
   padding:0 1rem 4rem;
@@ -12829,7 +12831,7 @@ footer .about__body {
                       <div class="ml-auto">
                         <ul class="btn-group ">
                           <li>
-                            <a class="btn btn-bordered cc " target="_blank" href="">Sign in</a>
+                            <a class="btn btn-bordered cc " target="_blank" href="signup.html">Sign in</a>
                           </li>
                           <li>
 
@@ -12845,7 +12847,7 @@ footer .about__body {
                             <div class="container flex--5">
                               <div class="section--1">
                                 <div class="text">
-                                  <h1 style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px);">The Better Way to Save &amp; Invest</h1>
+                                  <h1 style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px); ">The Better Way to Save &amp; Invest</h1>
                                   <p class="mt-25 mb-40 text" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate(0px);">Piggyvest helps over 4 million customers achieve their financial goals by helping them save and invest with ease.</p>
                                     </div>
                     <div class="mt-10">
@@ -13147,7 +13149,6 @@ footer .about__body {
 
     <script>
     let nav = document.querySelector("nav");
-
     window.onscroll = function() {
       if(document.documentElement.scrollTop > 20){
         nav.classList.add("sticky");
